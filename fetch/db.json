@@ -1,0 +1,49 @@
+{
+  "books": [
+    {
+      "title": "hello",
+      "author": "ljlkjaf",
+      "id": 1
+    },
+    {
+      "title": "The Waves",
+      "author": "Virginia Woolf",
+      "id": 2
+    },
+    {
+      "title": "Wizard of Ox",
+      "author": "L. Frank Baum",
+      "id": 3
+    },
+    {
+      "title": "crime + punishment",
+      "author": "dostoevsky",
+      "id": 4
+    },
+    {
+      "title": "the stranger",
+      "author": "albert camus",
+      "id": 5
+    },
+    {
+      "title": "the ruins",
+      "author": "scott smith",
+      "id": 6
+    },
+    {
+      "title": "hop on pop",
+      "author": "dr suess",
+      "id": 7
+    },
+    {
+      "title": "laksjfd",
+      "author": "aslkdfj",
+      "id": 8
+    },
+    {
+      "title": "against the gods",
+      "author": "bernstein",
+      "id": 9
+    }
+  ]
+}
