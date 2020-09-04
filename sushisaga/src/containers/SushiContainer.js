@@ -4,24 +4,26 @@ import React, { Fragment } from 'react'
 import MoreButton from '../components/MoreButton'
 import Sushi from '../components/Sushi'
 
-const SushiContainer = (props) => {
-  return (
-    <Fragment>
-      <div className="belt">
-        {
-          props.sushis.map(sushiObj => {
-            const isEaten = props.eatenSushis.includes(sushiObj.id)
+class SushiContainer extends React.Component{
+  render(){
+    return (
+      <Fragment>
+        <div className="belt">
+          {
+            props.sushis.map(sushiObj => {
+              const isEaten = this.props.eatenSushis.includes(sushiObj.id)
 
 
 
-            return <Sushi isEaten={isEaten} sushi={sushiObj} handleEaten={props.handleEaten} /> 
-          })
+              return <Sushi isEaten={isEaten} sushi={sushiObj} handleEaten={this.props.handleEaten} /> 
+            })
 
-        }
-        <MoreButton handleMoreButton={props.handleMoreButton} />
-      </div>
-    </Fragment>
-  )
+          }
+          <MoreButton handleMoreButton={this.props.handleMoreButton} />
+        </div>
+      </Fragment>
+    )
+  }
 }
 
 export default SushiContainer
